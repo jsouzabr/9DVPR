@@ -39,7 +39,7 @@ public class DemoApplication {
 	@GetMapping("/public")
 	public String pub(){
 		
-		return "This is public endpoint";
+		return "MENGO";
 	}
 
 	@GetMapping("/what-is-the-time")
